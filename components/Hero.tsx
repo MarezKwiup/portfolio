@@ -1,5 +1,8 @@
 import React from "react";
+import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { FaLocationArrow } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -26,10 +29,22 @@ const Hero = () => {
             <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
                 Dynamic web magic with next.js
             </h2>
+
+            <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words="Learning, Creating, and Making a Difference Through Code" />
+
+            <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            Hi, I'm Vardan Sharma, a Full Stack & AI Developer Based in India. 
+            </p>
+
+            <a href="#about">
+              <MagicButton 
+                title='Show  my work'
+                icon={<FaLocationArrow/>}
+                position='right'
+              />
+            </a>
         </div>
       </div>
-
-
     </div>
   );
 };
