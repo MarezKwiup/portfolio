@@ -33,7 +33,7 @@ const Hero = () => {
             <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words="Learning, Creating, and Making a Difference Through Code" />
 
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Vardan Sharma, a Full Stack & AI Developer Based in India. 
+            Hi, I&apos;m Vardan Sharma, a Full Stack & AI Developer Based in India. 
             </p>
 
             <a href="#about">
